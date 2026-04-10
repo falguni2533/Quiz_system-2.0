@@ -6,6 +6,7 @@ import Multiplayer from './pages/Multiplayer';
 import Leaderboard from './pages/Leaderboard';
 import Admin from "./pages/Admin";
 import './index.css';
+import Quiz from './pages/Quiz';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route path="/multiplayer" element={<Multiplayer />} />
           <Route path="/leaderboard" element={<Leaderboard />} />
           <Route path="/admin" element={<Admin />} />
+          <Route path="/quiz" element={<Quiz />} />
         </Routes>
       </div>
     </Router>
